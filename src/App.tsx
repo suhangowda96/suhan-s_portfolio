@@ -190,7 +190,7 @@ function App() {
           <div className="space-y-8">
             {[
               {
-                school: "DR P Dayananda Pai - P Sathisha Pai Government First Grade College",
+                school: "DR P Dayananda Pai - P Sathisha Pai Government First Grade College Mangalore",
                 degree: "Bachelor of Computer Application, Mangalore University",
                 score: "CGPA: 6.54",
                 period: "2021 - 2024"
