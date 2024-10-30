@@ -139,6 +139,18 @@ function App() {
                 skills: ['scikit-learn', 'TensorFlow'],
                 icon: '🤖',
                 color: 'from-pink-400 to-red-400'
+              },
+              {
+                title: 'Database',
+                skills: ['MySQL', 'XAMPP'],
+                icon: '🗄️',
+                color: 'from-red-400 to-gray-400'
+              },
+              {
+                title: 'Version Control',
+                skills: ['Git', 'GitHub'],
+                icon: '🔧',
+                color: 'from-gray-400 to-gray-400'
               }
             ].map((category, index) => (
               <motion.div
