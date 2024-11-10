@@ -11,7 +11,6 @@ function App() {
   const roles = [
     'Python Expert 🐍',
     'Full Stack Developer 💻',
-    'Flask Specialist 🚀',
     'Machine Learning Engineer 🤖'
   ];
   const [roleIndex, setRoleIndex] = useState(0);
