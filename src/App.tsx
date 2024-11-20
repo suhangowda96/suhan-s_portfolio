@@ -4,6 +4,7 @@ import { ExternalLink } from 'lucide-react';
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { ProjectCard } from './components/ProjectCard';
+import { HobbyCard } from './components/HobbyCard';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -241,6 +242,24 @@ function App() {
                 <p className="text-gray-600 font-mono">{edu.score}</p>
                 <p className="text-gray-500 font-mono">{edu.period}</p>
               </motion.div>
+            ))}
+          </div>
+        </div>
+      </motion.section>
+
+      {/* Hobbies Section */}
+      <motion.section 
+        id="hobbies"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        className="py-20 bg-gradient-to-br from-pink-50 to-purple-50"
+      >
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-12 text-purple-800 font-serif">Hobbies & Interests</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {hobbies.map((hobby, index) => (
+              <HobbyCard key={index} {...hobby} />
             ))}
           </div>
         </div>
