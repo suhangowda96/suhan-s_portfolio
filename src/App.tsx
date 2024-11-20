@@ -96,8 +96,8 @@ function App() {
                 whileInView={{ x: 0, opacity: 1 }}
                 className="text-gray-700 mb-6 leading-relaxed"
               >
-                I'm a passionate developer with a Bachelor's in Computer Applications and a keen interest in web development. 
-                I have experience in Python, Flask, machine learning integration, and building dynamic web solutions.
+                I’m a passionate Data Scientist with a Bachelor's in Computer Applications and a strong interest in data analysis, machine learning, and database management. 
+                I have hands-on experience in Python, machine learning integration, SQL, and building data-driven solutions to extract valuable insights from complex datasets.
               </motion.p>
               <motion.div 
                 initial={{ x: 100, opacity: 0 }}
