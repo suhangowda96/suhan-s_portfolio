@@ -175,7 +175,7 @@ function App() {
               },
               {
                 title: 'Web Development',
-                skills: ['HTML', 'CSS', 'JavaScript', 'Flask'],
+                skills: ['HTML', 'CSS', 'JavaScript', 'React'],
                 icon: '💻',
                 color: 'from-purple-400 to-pink-400'
               },
