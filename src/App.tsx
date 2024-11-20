@@ -10,8 +10,8 @@ function App() {
   const [typewriterText, setTypewriterText] = useState('');
   const roles = [
     'Python Expert 🐍',
-    'Full Stack Developer 💻',
-    'Machine Learning Engineer 🤖'
+    'Data Scientist💻',
+    'Machine Learning Integration🤖'
   ];
   const [roleIndex, setRoleIndex] = useState(0);
 
