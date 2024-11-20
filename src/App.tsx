@@ -61,6 +61,39 @@ function App() {
     }
   ];
 
+    const hobbies = [
+    {
+      title: "Traveling",
+      description: "Exploring new places and cultures",
+      imageUrl: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=800",
+      iconName: "map"
+    },
+    {
+      title: "Riding",
+      description: "Adventure on two wheels",
+      imageUrl: "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=800",
+      iconName: "bike"
+    },
+    {
+      title: "Photography",
+      description: "Capturing moments through the lens",
+      imageUrl: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=800",
+      iconName: "camera"
+    },
+    {
+      title: "Music",
+      description: "Lost in melodies",
+      imageUrl: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?auto=format&fit=crop&w=800",
+      iconName: "headphones"
+    },
+    {
+      title: "Gaming",
+      description: "Virtual adventures and challenges",
+      imageUrl: "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=800",
+      iconName: "gamepad"
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-purple-50 to-pink-100">
       <Navigation activeSection={activeSection} onSectionChange={setActiveSection} />
