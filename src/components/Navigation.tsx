@@ -15,7 +15,8 @@ const navItems: NavItem[] = [
   { id: 'about', label: 'About' },
   { id: 'skills', label: 'Skills' },
   { id: 'projects', label: 'Projects' },
-  { id: 'education', label: 'Education' }
+  { id: 'education', label: 'Education' },
+  { id: 'hobbies', label: 'Hobbies' }
 ];
 
 export function Navigation({ activeSection, onSectionChange }: NavigationProps) {
