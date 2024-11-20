@@ -45,6 +45,18 @@ function App() {
       description: 'This portfolio website showcases my skills and experience. Fully responsive and built with React, Tailwind CSS, and modern web technologies.',
       imageUrl: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800',
       projectUrl: 'https://github.com/suhangowda96/portfolio'
+    },
+    {
+      title: 'Uber Trip Analysis and Prediction',
+      description: 'Analyzed Uber trip data using Python to identify patterns, engineered features, and built predictive models to forecast trip demand, improving data-driven decision-making.',
+      imageUrl: 'https://images.unsplash.com/photo-1590496793929-36417d3117de?auto=format&fit=crop&w=800',
+      projectUrl: 'https://github.com/suhangowda96/Uber-Trip-Analysis-and-Prediction'
+    },
+    {
+      title: 'Climate Change Modeling with ML',
+      description: 'Designed and implemented advanced machine learning models to predict climate change indicators using NASA\'s climate data, enabling trend analysis, sentiment insights, and future scenario projections.',
+      imageUrl: 'https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?auto=format&fit=crop&w=800',
+      projectUrl: 'https://github.com/suhangowda96/Climate-Change-Modeling-with-Machine-Learning'
     }
   ];
 
