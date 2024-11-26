@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Map, Bike, Camera, Headphones, Gamepad, LucideIcon } from 'lucide-react';
+import { Map, Bike, Camera, Headphones, Gamepad, Code, LucideIcon } from 'lucide-react';
 
 interface HobbyCardProps {
   title: string;
@@ -14,7 +14,8 @@ const iconMap: Record<string, LucideIcon> = {
   bike: Bike,
   camera: Camera,
   headphones: Headphones,
-  gamepad: Gamepad
+  gamepad: Gamepad,
+  code: Code
 };
 
 export function HobbyCard({ title, description, imageUrl, iconName }: HobbyCardProps) {
