@@ -52,7 +52,7 @@ function App() {
       description: 'Developed a Coffee Sales Prediction model using ARIMA, SARIMA, and Exponential Smoothing to forecast trends and analyze seasonal patterns. Leveraged Python tools like pandas and statsmodels to derive actionable insights.',
       imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800',
       projectUrl: 'https://github.com/suhangowda96/coffee-sales-prediction'
-    }
+    },
     {
       title: 'Uber Trip Analysis and Prediction',
       description: 'Analyzed Uber trip data using Python to identify patterns, engineered features, and built predictive models to forecast trip demand, improving data-driven decision-making.',
@@ -97,6 +97,12 @@ function App() {
       description: "Virtual adventures and challenges",
       imageUrl: "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=800",
       iconName: "gamepad"
+    },
+    {
+      title: "Coding",
+      description: "Building digital solutions",
+      imageUrl: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800",
+      iconName: "code"
     }
   ];
 
