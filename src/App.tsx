@@ -5,6 +5,7 @@ import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { ProjectCard } from './components/ProjectCard';
 import { HobbyCard } from './components/HobbyCard';
+import { ExperienceSection } from './components/ExperienceSection';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -160,6 +161,10 @@ function App() {
           </div>
         </div>
       </motion.section>
+      
+      {/* Experience Section */}
+      <ExperienceSection />
+
 
       {/* Skills Section */}
       <motion.section 
