@@ -181,7 +181,7 @@ function App() {
             {[
               {
                 title: 'Programming Languages',
-                skills: ['Python', 'PHP', 'Java', 'C++'],
+                skills: ['Python', 'Java'],
                 icon: '🚀',
                 color: 'from-blue-400 to-purple-400'
               },
@@ -193,7 +193,7 @@ function App() {
               },
               {
                 title: 'Machine Learning',
-                skills: ['scikit-learn', 'TensorFlow'],
+                skills: ['scikit-learn', 'TensorFlow', 'Time Series Analysis', 'NLP'],
                 icon: '🤖',
                 color: 'from-pink-400 to-red-400'
               },
