@@ -6,6 +6,7 @@ import { Hero } from './components/Hero';
 import { ProjectCard } from './components/ProjectCard';
 import { HobbyCard } from './components/HobbyCard';
 import { ExperienceSection } from './components/ExperienceSection';
+import { EducationSection } from './components/EducationSection';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -244,52 +245,9 @@ function App() {
           </div>
         </div>
       </motion.section>
-
+      
       {/* Education Section */}
-      <motion.section 
-        id="education"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.8 }}
-        className="py-20 bg-gradient-to-br from-indigo-50 to-pink-50"
-      >
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-purple-800 font-serif">Education</h2>
-          <div className="space-y-8">
-            {[
-              {
-                school: "DR P Dayananda Pai - P Sathisha Pai Government First Grade College Mangalore",
-                degree: "Bachelor of Computer Application, Mangalore University",
-                period: "2021 - 2024",
-                logoUrl: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=300"
-              },
-              {
-                school: "Sujala Pu College Hassan",
-                degree: "State Board, Class XII",
-                period: "2019 - 2021",
-                logoUrl: "https://images.unsplash.com/photo-1535982330050-f1c2fb79ff78?auto=format&fit=crop&w=300"
-              },
-              {
-                school: "OLV Convent High School Somwarpet Kodagu",
-                degree: "State Board, Class X",
-                period: "2016 - 2019",
-                logoUrl: "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=300"
-              }
-            ].map((edu, index) => (
-              <motion.div
-                key={index}
-                whileHover={{ scale: 1.02 }}
-                className="bg-white p-8 rounded-2xl shadow-xl border-2 border-purple-100"
-              >
-                <h3 className="text-2xl font-bold text-purple-700 font-serif">{edu.school}</h3>
-                <p className="text-gray-700 font-mono">{edu.degree}</p>
-                <p className="text-gray-600 font-mono">{edu.score}</p>
-                <p className="text-gray-500 font-mono">{edu.period}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </motion.section>
+      <EducationSection />
 
       {/* Hobbies Section */}
       <motion.section 
