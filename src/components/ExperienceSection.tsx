@@ -8,7 +8,7 @@ export function ExperienceSection() {
     role: "Data Science Intern",
     description: "Successfully completed a data science internship at Unified Mentors, where I worked on three key projects aimed at solving real-world problems using data-driven approaches. Awarded an internship certificate for exemplary performance.",
     certificateUrl: "https://drive.google.com/file/d/120yFVe9QTd1tVZ8K_v7bj4kwOUOPKMUw/view",
-    logoUrl: "https://raw.githubusercontent.com/suhangowda96/portfolio/main/public/unified-mentors-logo.png",
+    logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtHqKrOdrTbmmjnPbPc5IQ4fJtjyHFuML4HA&s",
     projects: [
       "Coffee Sales Forecasting",
       "Climate Change Modeling with Machine Learning",
