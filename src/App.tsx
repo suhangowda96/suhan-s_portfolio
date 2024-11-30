@@ -199,7 +199,7 @@ function App() {
               },
               {
                 title: 'Database',
-                skills: ['MySQL', 'XAMPP'],
+                skills: ['SQL', 'XAMPP'],
                 icon: '🗄️',
                 color: 'from-red-400 to-gray-400'
               },
