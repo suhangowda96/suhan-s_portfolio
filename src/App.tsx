@@ -260,17 +260,20 @@ function App() {
               {
                 school: "DR P Dayananda Pai - P Sathisha Pai Government First Grade College Mangalore",
                 degree: "Bachelor of Computer Application, Mangalore University",
-                period: "2021 - 2024"
+                period: "2021 - 2024",
+                logoUrl: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=300"
               },
               {
                 school: "Sujala Pu College Hassan",
                 degree: "State Board, Class XII",
-                period: "2019 - 2021"
+                period: "2019 - 2021",
+                logoUrl: "https://images.unsplash.com/photo-1535982330050-f1c2fb79ff78?auto=format&fit=crop&w=300"
               },
               {
                 school: "OLV Convent High School Somwarpet Kodagu",
                 degree: "State Board, Class X",
-                period: "2016 - 2019"
+                period: "2016 - 2019",
+                logoUrl: "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=300"
               }
             ].map((edu, index) => (
               <motion.div
