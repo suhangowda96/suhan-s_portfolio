@@ -260,19 +260,16 @@ function App() {
               {
                 school: "DR P Dayananda Pai - P Sathisha Pai Government First Grade College Mangalore",
                 degree: "Bachelor of Computer Application, Mangalore University",
-                score: "CGPA: 6.54",
                 period: "2021 - 2024"
               },
               {
                 school: "Sujala Pu College Hassan",
                 degree: "State Board, Class XII",
-                score: "Percentage: 75.16% (CEBA)",
                 period: "2019 - 2021"
               },
               {
                 school: "OLV Convent High School Somwarpet Kodagu",
                 degree: "State Board, Class X",
-                score: "Percentage: 71.04%",
                 period: "2016 - 2019"
               }
             ].map((edu, index) => (
