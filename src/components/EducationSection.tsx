@@ -5,7 +5,7 @@ import { EducationCard } from './EducationCard';
 export function EducationSection() {
   const educationData = [
     {
-      school: "DR P Dayananda Pai - P Sathisha Pai Government First Grade College",
+      school: "DR P Dayananda Pai - P Sathisha Pai Government First Grade College Mangalore",
       degree: "Bachelor of Computer Application, Mangalore University",
       period: "2021 - 2024",
       logoUrl: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=300"
