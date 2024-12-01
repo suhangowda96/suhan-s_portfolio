@@ -166,6 +166,23 @@ function App() {
       {/* Experience Section */}
       <ExperienceSection />
 
+      {/* Projects Section */}
+      <motion.section 
+        id="projects"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        className="py-20 bg-gradient-to-br from-blue-50 to-indigo-50"
+      >
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-12 text-purple-800 font-serif">Projects</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {projects.map((project, index) => (
+              <ProjectCard key={index} {...project} />
+            ))}
+          </div>
+        </div>
+      </motion.section>
 
       {/* Skills Section */}
       <motion.section 
@@ -223,24 +240,6 @@ function App() {
                   ))}
                 </ul>
               </motion.div>
-            ))}
-          </div>
-        </div>
-      </motion.section>
-
-      {/* Projects Section */}
-      <motion.section 
-        id="projects"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.8 }}
-        className="py-20 bg-gradient-to-br from-blue-50 to-indigo-50"
-      >
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-purple-800 font-serif">Projects</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {projects.map((project, index) => (
-              <ProjectCard key={index} {...project} />
             ))}
           </div>
         </div>
