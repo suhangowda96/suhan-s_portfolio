@@ -120,7 +120,7 @@ function App() {
             <div className="md:w-1/2 mb-8 md:mb-0">
               <motion.img 
                 whileHover={{ scale: 1.05 }}
-                src="https://media.istockphoto.com/id/1500238408/photo/program-code-development-icon-on-a-digital-lcd-display-with-reflection.jpg?s=1024x1024&w=is&k=20&c=9k0ISvEy4At1nzoYrDP-pwOyN5qyvOWf_MruUHANUKc="
+                src="https://images.unsplash.com/photo-1599658880436-c61792e70672?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Developer workspace"
                 className="rounded-2xl shadow-2xl"
               />
