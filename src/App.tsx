@@ -120,7 +120,7 @@ function App() {
             <div className="md:w-1/2 mb-8 md:mb-0">
               <motion.img 
                 whileHover={{ scale: 1.05 }}
-                src="./WhatsApp Image 2024-08-10 at 8.09.01 PM-modified.png"
+                src="https://media.istockphoto.com/id/1500238408/photo/program-code-development-icon-on-a-digital-lcd-display-with-reflection.jpg?s=1024x1024&w=is&k=20&c=9k0ISvEy4At1nzoYrDP-pwOyN5qyvOWf_MruUHANUKc="
                 alt="Developer workspace"
                 className="rounded-2xl shadow-2xl"
               />
