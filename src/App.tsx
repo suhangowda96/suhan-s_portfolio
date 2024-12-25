@@ -13,7 +13,7 @@ function App() {
   const [typewriterText, setTypewriterText] = useState('');
   const roles = [
     'Python Expert 🐍',
-    'Data Scientist💻',
+    'Data Engineer 💻',
     'Machine Learning Integration🤖'
   ];
   const [roleIndex, setRoleIndex] = useState(0);
@@ -138,7 +138,7 @@ function App() {
                 whileInView={{ x: 0, opacity: 1 }}
                 className="text-gray-700 mb-6 leading-relaxed"
               >
-                I’m a passionate Data Scientist with a Bachelor's in Computer Applications and a strong interest in data analysis, machine learning, and database management. 
+                I’m a passionate Data Engineer with a Bachelor's in Computer Applications and a strong interest in data analysis, machine learning, and database management. 
                 I have hands-on experience in Python, machine learning integration, SQL, and building data-driven solutions to extract valuable insights from complex datasets.
               </motion.p>
               <motion.div 
