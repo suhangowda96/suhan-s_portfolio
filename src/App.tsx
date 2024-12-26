@@ -56,7 +56,7 @@ function App() {
       projectUrl: 'https://www.kaggle.com/code/suhanhj/uber-trip-analysis'
     },
     {
-      title: 'Climate Change Modeling with ML',
+      title: 'Climate Change Sentiment Analysis',
       description: 'Designed and implemented advanced machine learning models to predict climate change indicators using NASA\'s climate data, enabling trend analysis, sentiment insights, and future scenario projections.',
       imageUrl: 'https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?auto=format&fit=crop&w=800',
       projectUrl: 'https://www.kaggle.com/code/suhanhj/climate-change-prediction-and-sentiment-analysis'
