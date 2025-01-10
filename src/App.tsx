@@ -13,8 +13,10 @@ function App() {
   const [typewriterText, setTypewriterText] = useState('');
   const roles = [
     'Python Expert 🐍',
-    'Data Engineer 💻',
-    'Machine Learning Integration🤖'
+    'Full-Stack Developer 💻',
+    'Data Analyst 📊',
+    'Web Application Specialist 🌐',
+    'Creative Problem Solver 💡'
   ];
   const [roleIndex, setRoleIndex] = useState(0);
 
@@ -138,8 +140,8 @@ function App() {
                 whileInView={{ x: 0, opacity: 1 }}
                 className="text-gray-700 mb-6 leading-relaxed"
               >
-                I’m a passionate Data Engineer with a Bachelor's in Computer Applications and a strong interest in data analysis, machine learning, and database management. 
-                I have hands-on experience in Python, machine learning integration, SQL, and building data-driven solutions to extract valuable insights from complex datasets.
+                I am a passionate Python full-stack developer and data analyst with hands-on experience in building innovative projects and creating impactful web applications. 
+                I am skilled in using technologies like Flask, Django, and MySQL to deliver efficient and user-friendly solutions.
               </motion.p>
               <motion.div 
                 initial={{ x: 100, opacity: 0 }}
@@ -151,7 +153,7 @@ function App() {
               </motion.div>
               <motion.a 
                 whileHover={{ scale: 1.05 }}
-                href="https://drive.google.com/file/d/12NxFG1tJpYidnzbtNkjvdnlSA3XrMEKY/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1wUq91wDgAFP_sCcxKE5O-laGzNLSYKgZ/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-full hover:from-purple-700 hover:to-pink-700 transition-all shadow-lg"
