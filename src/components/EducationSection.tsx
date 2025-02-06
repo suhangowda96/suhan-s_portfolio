@@ -8,7 +8,7 @@ export function EducationSection() {
       school: "QSpider Software Training Institute",
       degree: "Python Full Stack Developer with Data Analytics",
       score: "Professional Training",
-      period: "2024",
+      period: "2025",
       logoUrl: "https://images.unsplash.com/photo-1579403124614-197f69d8187b?auto=format&fit=crop&w=300"
     },
     {
