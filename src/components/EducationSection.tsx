@@ -5,6 +5,13 @@ import { EducationCard } from './EducationCard';
 export function EducationSection() {
   const educationData = [
     {
+      school: "QSpider Software Training Institute",
+      degree: "Python Full Stack Developer with Data Analytics",
+      score: "Professional Training",
+      period: "2024",
+      logoUrl: "https://images.unsplash.com/photo-1579403124614-197f69d8187b?auto=format&fit=crop&w=300"
+    },
+    {
       school: "DR P Dayananda Pai - P Sathisha Pai Government First Grade College Mangalore",
       degree: "Bachelor of Computer Application, Mangalore University",
       period: "2021 - 2024",
