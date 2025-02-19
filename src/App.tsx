@@ -153,7 +153,7 @@ function App() {
               </motion.div>
               <motion.a 
                 whileHover={{ scale: 1.05 }}
-                href="https://drive.google.com/file/d/1wUq91wDgAFP_sCcxKE5O-laGzNLSYKgZ/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1ruYqJt98hhN4iWbbXWrPAvvYPNKmgeZa/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-full hover:from-purple-700 hover:to-pink-700 transition-all shadow-lg"
