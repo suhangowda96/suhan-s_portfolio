@@ -205,7 +205,7 @@ function App() {
                 color: 'from-blue-400 to-purple-400'
               },
               {
-                title: '• Frameworks & Libraries',
+                title: 'Frameworks & Libraries',
                 skills: [ 'Django', 'Flask', 'React'],
                 icon: '💻',
                 color: 'from-purple-400 to-pink-400'
@@ -224,7 +224,7 @@ function App() {
               },
               {
                 title: 'Tools & Others',
-                skills: ['Git', 'Docker, VS Code', 'Jupyter Notebook'],
+                skills: ['Git', 'Docker', 'VS Code', 'Jupyter Notebook'],
                 icon: '🔧',
                 color: 'from-gray-400 to-gray-400'
               }
