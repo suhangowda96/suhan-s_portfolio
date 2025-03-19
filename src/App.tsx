@@ -200,31 +200,31 @@ function App() {
             {[
               {
                 title: 'Programming Languages',
-                skills: ['Python', 'Java'],
+                skills: ['Python', 'JavaScript', 'HTML', 'CSS'],
                 icon: '🚀',
                 color: 'from-blue-400 to-purple-400'
               },
               {
-                title: 'Web Development',
-                skills: ['React', 'HTML', 'CSS', 'JavaScript'],
+                title: '• Frameworks & Libraries',
+                skills: [ 'Django', 'Flask', 'React'],
                 icon: '💻',
                 color: 'from-purple-400 to-pink-400'
               },
               {
                 title: 'Machine Learning',
-                skills: ['scikit-learn', 'TensorFlow', 'Time Series Analysis', 'NLP'],
+                skills: ['scikit-learn','NLP'],
                 icon: '🤖',
                 color: 'from-pink-400 to-red-400'
               },
               {
                 title: 'Database',
-                skills: ['SQL', 'XAMPP'],
+                skills: ['MYSQL','PostgreSQL', 'SQLite'],
                 icon: '🗄️',
                 color: 'from-red-400 to-gray-400'
               },
               {
-                title: 'Version Control',
-                skills: ['Git', 'GitHub'],
+                title: 'Tools & Others',
+                skills: ['Git', 'Docker, VS Code', 'Jupyter Notebook'],
                 icon: '🔧',
                 color: 'from-gray-400 to-gray-400'
               }
