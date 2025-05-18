@@ -7,7 +7,7 @@ import { ProjectCard } from './components/ProjectCard';
 import { HobbyCard } from './components/HobbyCard';
 import { ExperienceSection } from './components/ExperienceSection';
 import { EducationSection } from './components/EducationSection';
-import cera from '../images/fdgh.jpg';
+import cera from '../src/images/fdgh.png';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
