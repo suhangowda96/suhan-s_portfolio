@@ -3,25 +3,25 @@ import { motion } from 'framer-motion';
 import { ExperienceCard } from './ExperienceCard';
 
 export function ExperienceSection() {
-  const experience = [
-  {
-    company: "Unified Mentors",
-    role: "Data Science Intern",
-    description: "Successfully completed a data science internship at Unified Mentors, where I worked on three key projects aimed at solving real-world problems using data-driven approaches. Awarded an internship certificate for exemplary performance.",
-    certificateUrl: "https://drive.google.com/file/d/120yFVe9QTd1tVZ8K_v7bj4kwOUOPKMUw/view",
-    logoUrl: "https://cdn.elearningindustry.com/wp-content/uploads/2023/10/276e36c0a066824acb064b6471dd7452.jpeg",
-    projects: [
-      "Coffee Sales Forecasting",
-      "Climate Change Modeling with Machine Learning",
-      "Uber Trip Analysis and Prediction"
-    ]
-  },
+  const experiences = [
+    {
+      company: "Unified Mentors",
+      role: "Data Science Intern",
+      description: "Successfully completed a data science internship at Unified Mentors, where I worked on three key projects aimed at solving real-world problems using data-driven approaches. Awarded an internship certificate for exemplary performance.",
+      certificateUrl: "https://drive.google.com/file/d/120yFVe9QTd1tVZ8K_v7bj4kwOUOPKMUw/view",
+      logoUrl: "https://cdn.elearningindustry.com/wp-content/uploads/2023/10/276e36c0a066824acb064b6471dd7452.jpeg",
+      projects: [
+        "Coffee Sales Forecasting",
+        "Climate Change Modeling with Machine Learning",
+        "Uber Trip Analysis and Prediction"
+      ]
+    },
     {
       company: "Robowaves",
       role: "Web Development Intern",
       description: "During my Robowaves internship, I architected and built the Cera e-commerce website as a responsive, multi-page online store—implementing dynamic product listings, a shopping cart workflow, and image preview functionality using HTML, CSS, and JavaScript.",
       certificateUrl: "#",
-      logoUrl: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEVHcEwO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cNrOIOZAAAAEXRSTlMAHoCtcAnG/4zWn1kVNke773DXGkkAAAClSURBVHgB3ZC1gQMwEARXOGKp/2bNDOm/7UmOUf+Hsc758DIUIjibcnlVBlV7WnoOQujjqI7HmKONqXZs8jiQItT1Eo9JTvV10KHs+5vKuQ+a9LayZGW7P2VYN324mzkMVQkgp4dbGlmJc9tu5wJXw2WolYcVYwZWOQeOQJFqidP5LmmkuMj23HhB2rtD924B09Zq47lB4UL0Rg9/Dr7EOIvv+lG2bAkFdHdJxvwAAAAASUVORK5CYII=",
+      logoUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=300",
       projects: [
         "Developed responsive e-commerce website from scratch",
         "Implemented dynamic product catalog and cart system",
