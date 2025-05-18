@@ -7,6 +7,7 @@ import { ProjectCard } from './components/ProjectCard';
 import { HobbyCard } from './components/HobbyCard';
 import { ExperienceSection } from './components/ExperienceSection';
 import { EducationSection } from './components/EducationSection';
+import cera from '../images/front.jpg';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -48,7 +49,7 @@ function App() {
     {
       title: 'Cera E-Commerce Website',
       description: 'Built a fully responsive, multi-page online storefront featuring dynamic product catalogs, client-side shopping-cart management with quantity controls, and live image-preview before checkout—crafted in pure HTML, CSS & JavaScript for seamless desktop and mobile shopping.',
-      imageUrl: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800',
+      imageUrl: cera,
       projectUrl: 'https://github.com/suhangowda96/cera_ecommerce_website'
     },
     {
