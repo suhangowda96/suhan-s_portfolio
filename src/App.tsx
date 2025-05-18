@@ -46,6 +46,18 @@ function App() {
       projectUrl: 'https://github.com/suhangowda96/heart_disease_prediction'
     },
     {
+      title: 'Cera E-Commerce Website',
+      description: 'Built a fully responsive, multi-page online storefront featuring dynamic product catalogs, client-side shopping-cart management with quantity controls, and live image-preview before checkout—crafted in pure HTML, CSS & JavaScript for seamless desktop and mobile shopping.',
+      imageUrl: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800',
+      projectUrl: 'https://github.com/suhangowda96/cera_ecommerce_website'
+    },
+    {
+      title: 'Portfolio Website',
+      description: 'This portfolio website showcases my skills and experience. Fully responsive and built with React, Tailwind CSS, and modern web technologies.',
+      imageUrl: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800',
+      projectUrl: 'https://github.com/suhangowda96/portfolio'
+    },
+    {
       title: 'Coffee Sales Prediction',
       description: 'Developed a Coffee Sales Prediction model using ARIMA, SARIMA, and Exponential Smoothing to forecast trends and analyze seasonal patterns. Leveraged Python tools like pandas and statsmodels to derive actionable insights.',
       imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800',
