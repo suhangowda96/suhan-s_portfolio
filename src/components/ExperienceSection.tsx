@@ -39,8 +39,12 @@ export function ExperienceSection() {
       className="py-20 bg-gradient-to-br from-purple-50 to-indigo-50"
     >
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12 text-purple-800 font-serif">Internship</h2>
-        <ExperienceCard {...experience} />
+        <h2 className="text-4xl font-bold text-center mb-12 text-purple-800 font-serif">Experience</h2>
+        <div className="space-y-8">
+          {experiences.map((experience, index) => (
+            <ExperienceCard key={index} {...experience} />
+          ))}
+        </div>
       </div>
     </motion.section>
   );
