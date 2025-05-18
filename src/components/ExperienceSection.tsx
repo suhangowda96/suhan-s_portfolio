@@ -38,7 +38,7 @@ export function ExperienceSection() {
     >
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12 text-purple-800 font-serif">Experience</h2>
-        <div className="space-y-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} {...experience} />
           ))}
