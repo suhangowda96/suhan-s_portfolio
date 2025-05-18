@@ -21,12 +21,7 @@ export function ExperienceSection() {
       role: "Web Development Intern",
       description: "During my Robowaves internship, I architected and built the Cera e-commerce website as a responsive, multi-page online store—implementing dynamic product listings, a shopping cart workflow, and image preview functionality using HTML, CSS, and JavaScript.",
       certificateUrl: "#",
-      logoUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=300",
-      projects: [
-        "Developed responsive e-commerce website from scratch",
-        "Implemented dynamic product catalog and cart system",
-        "Created interactive image preview functionality"
-      ]
+      logoUrl: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEVHcEwO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cMO0cNrOIOZAAAAEXRSTlMAHoCtcAnG/4zWn1kVNke773DXGkkAAAClSURBVHgB3ZC1gQMwEARXOGKp/2bNDOm/7UmOUf+Hsc758DIUIjibcnlVBlV7WnoOQujjqI7HmKONqXZs8jiQItT1Eo9JTvV10KHs+5vKuQ+a9LayZGW7P2VYN324mzkMVQkgp4dbGlmJc9tu5wJXw2WolYcVYwZWOQeOQJFqidP5LmmkuMj23HhB2rtD924B09Zq47lB4UL0Rg9/Dr7EOIvv+lG2bAkFdHdJxvwAAAAASUVORK5CYII=",
     }
   ];
 
