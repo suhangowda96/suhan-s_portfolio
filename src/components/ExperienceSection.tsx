@@ -37,7 +37,7 @@ export function ExperienceSection() {
       className="py-20 bg-gradient-to-br from-purple-50 to-indigo-50"
     >
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12 text-purple-800 font-serif">Experience</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 text-purple-800 font-serif">Intership</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} {...experience} />
