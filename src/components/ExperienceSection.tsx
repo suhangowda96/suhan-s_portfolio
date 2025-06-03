@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { ExperienceCard } from './ExperienceCard';
 
 export function ExperienceSection() {
-  const experience = [
+  const experiences = [
     {
       company: "Unified Mentors",
       role: "Data Science Intern",
