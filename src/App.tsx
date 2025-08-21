@@ -203,7 +203,7 @@ function App() {
                   className="w-24 h-24 rounded-xl overflow-hidden shadow-lg bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center"
                 >
                   <img 
-                    src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=300" 
+                    src="https://nemmadi-dairy-farm.vercel.app/assets/nemmadi-c7j4a-9U.png" 
                     alt="Dairy Farm Management" 
                     className="w-full h-full object-cover"
                   />
