@@ -235,6 +235,10 @@ function App() {
                   <li>Facial Recognition Attendance</li>
                   <li>Role-Based Access Control (Admin & Supervisor)</li>
                   <li>Milk Yield Management</li>
+                  <li>Weekly Inspection Tracking</li>
+                  <li>Purchase Request & Approval Workflow</li>
+                  <li>Real-time Notifications</li>
+                  <li>Responsive Dashboard</li>
                 </ul>
               </div>
             </motion.div>
