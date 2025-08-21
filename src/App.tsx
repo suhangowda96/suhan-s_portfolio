@@ -181,6 +181,67 @@ function App() {
       {/* Experience Section */}
       <ExperienceSection />
 
+      
+      {/* Freelancing Works Section */}
+      <motion.section 
+        id="freelancing"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        className="py-20 bg-gradient-to-br from-purple-50 to-pink-50"
+      >
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-12 text-purple-800 font-serif">Freelancing Works</h2>
+          <div className="max-w-4xl mx-auto">
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              className="bg-white p-8 rounded-2xl shadow-xl border-2 border-purple-100"
+            >
+              <div className="flex items-center gap-6 mb-6">
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  className="w-24 h-24 rounded-xl overflow-hidden shadow-lg bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center"
+                >
+                  <img 
+                    src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=300" 
+                    alt="Dairy Farm Management" 
+                    className="w-full h-full object-cover"
+                  />
+                </motion.div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-purple-700 font-serif mb-2">Nemmadi Dairy Farm Management System</h3>
+                  <p className="text-gray-600 font-mono mb-2">Web Application</p>
+                </div>
+              </div>
+              
+              <p className="text-gray-700 mb-6 font-mono leading-relaxed">
+                A comprehensive dairy farm management platform designed to streamline operations, including staff attendance with facial recognition, milk yield tracking, inspection reports, and purchase approvals. Built for efficiency, scalability, and role-based access control.
+              </p>
+              
+              <div className="mb-6">
+                <h5 className="text-lg font-semibold text-purple-600 mb-3">Technologies Used:</h5>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {['React', 'Django', 'JWT Authentication', 'Facial Recognition (OpenCV)'].map((tech, index) => (
+                    <span key={index} className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-mono">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mb-6">
+                <h5 className="text-lg font-semibold text-purple-600 mb-2">Key Features:</h5>
+                <ul className="list-disc list-inside space-y-1 text-gray-700 font-mono">
+                  <li>Facial Recognition Attendance</li>
+                  <li>Role-Based Access Control (Admin & Supervisor)</li>
+                  <li>Milk Yield Management</li>
+                </ul>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </motion.section>
+
       {/* Projects Section */}
       <motion.section 
         id="projects"
